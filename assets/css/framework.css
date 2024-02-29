@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-4{
+    flex: 4;
+}
+.flex-5{
+    flex: 5;
+}
+
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.ttu{
+    text-transform: uppercase;
+}
+.tac{
+    text-align: center;
+}
+
+.ts1{
+    text-shadow: 3px 3px 3px black;
+}
+.ts2{
+    text-shadow: 1px 1px 1px white;
+}
+.bs{
+    box-shadow: 1px 1px 3px black;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.unlisted{
+    z-index: 3;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.fixed{
+    position: fixed;
+}
+.sticky{
+    position: sticky;
+}
+
+.dropdown::after{
+    content: "\1F893";
+    padding-left: 2px;
+    position: relative;
+    top: 5px;
+}
+
+.active{
+    color: gray;
+}
+
+/***** BOUTON EN SAVOIR PLUS********/
+button{
+    width: 140px;
+    height: 30px;
+    border-radius: 50px;
+ }
+ .btn-plus{
+     background-color: red;
+     padding: 5px;
+ }
+ button a{
+     color: white;
+     font-size: 0.8em;
+     font-weight: bold;
+     text-align: center;
+ }
+
+h2{
+    text-align: center;
+    color: blue;
+    font-size: 3.2rem;
+}
+@media screen and (max-width:600px) {
+ 
+    h2{
+        font-size: 2.7rem;
+    } 
+ }
+ 
+hr{
+    border: 3px solid black;
+}
