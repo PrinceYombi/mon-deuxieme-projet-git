@@ -34,25 +34,6 @@
     font-size: 20px;
 }
 
-.nav-menu-h ul li ul{
-    width:100% ;
-    top: 67px;
-    left: 0;
-    visibility: hidden;
-    transition: width 0.5s ease-in 0.3s;
-}
-/* Pour la transition*/
-.nav-menu-h ul li ul:hover{
-    width: 140%;
-}
-.nav-menu-h ul li:hover ul{
-   visibility: visible;
-
-}
-.nav-menu-h ul li ul li{
-    height: auto;
-}
-
 
 /*************SLIDE********************/
 
